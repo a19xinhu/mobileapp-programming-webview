@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
         //WebView myWebView=findViewById(R.id.my_webview);
         //myWebView.getSettings().setJavaScriptEnabled(true);
+        //myWebView.loadUrl("https://www.his.se");
 
         // WebView myWebView = new WebView(this);
         // setContentView(myWebView);
         // myWebView.getSettings().setJavaScriptEnabled(true);
-
         //myWebView.loadUrl("https://www.his.se");
 
 
