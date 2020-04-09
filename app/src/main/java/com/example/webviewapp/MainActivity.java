@@ -17,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showExternalWebPage(){
         // TODO: Add your code for showing external web page here
-        WebView myWebView = new WebView(this);
-        setContentView(myWebView);
+        WebView myWebView=findViewById(R.id.my_webview);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.loadUrl("https://www.his.se");
 
@@ -26,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showInternalWebPage(){
         // TODO: Add your code for showing internal web page here
-        WebView myWebView = new WebView(this);
-        setContentView(myWebView);
+        WebView myWebView=findViewById(R.id.my_webview);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.loadUrl("file:///android_asset/google.html");
     }
@@ -41,9 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
         //WebView myWebView=findViewById(R.id.my_webview);
         //myWebView.getSettings().setJavaScriptEnabled(true);
+
         // WebView myWebView = new WebView(this);
         // setContentView(myWebView);
         // myWebView.getSettings().setJavaScriptEnabled(true);
+
         //myWebView.loadUrl("https://www.his.se");
 
 
